@@ -30,6 +30,19 @@
 python upscale.py --input ./before --output ./after --size 5632x3072
 python rename.py --folder ./images --prefix stock
 python run.py
+## Before / After
+
+**処理前:**
+
+
+![before](stock_20260529_001.jpg)
+
+
+
+**処理後(アップスケール後):**
+
+
+![after](upscaled_stock_20260529_001.jpg)
 
 ## 実績
 - 本スクリプトを使用し、実際にAI生成画像を用いたストックフォト出品パイプラインを構築・運用中
